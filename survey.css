@@ -1,0 +1,66 @@
+body, html{
+    height: 100%;
+}
+
+.bg{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.5;
+    z-index:-1;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#title_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#title{
+    color: #FFF;
+    font-weight: bolder;
+    text-align: center;
+    
+
+}
+
+#descripition{
+    color:#FFF;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+#form_container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    background-color:lightblue;
+    z-index:0;
+    height: 50%;
+    width: 50%;
+    padding: 50%;
+    margin: 50%;
+}
+
+.name{
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    justify-content: center;
+    align-items: center;
+}
